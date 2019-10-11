@@ -60,8 +60,9 @@ pushshift_data.set_index('timestamp', inplace=True)
 
 colors = {'Mid week': 'yellowgreen', 'Early week': 'darkcyan', 'Weekend': 'tomato'}
 
-# Some invalid threads exist where there are 0 or less
-# than 100 comments. These are usually the threads that were deleted.
+# Some invalid threads exist where there
+# are less than 80 or so comments.
+# These are usually the threads that were deleted.
 # Pushshift doesn't sift through them correctly so we need to drop them
 pushshift_data.drop(pushshift_data.loc[pushshift_data['Number Of Comments'] < 80].index, inplace=True)
 
