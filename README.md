@@ -22,6 +22,10 @@ After the data selection, a line graph and a bar plot are created as 2 different
 
 The script, while looking specialized for a certain type of subreddit and submission title, is a great base for building similar reddit scripts. Examples can be something like visualizing NBA Game Threads in /r/nba and their popularity in the regular season vs playoff time, or displaying certain trends and their life cycles in pop culture by using the number of times they are mentioned in all of reddit.
 
+## Example
+
+[Image](https://github.com/UrosVuj/Reddit-comment-visualizer/blob/master/Scraper_visualization.png?raw=true)
+
 
 
 
