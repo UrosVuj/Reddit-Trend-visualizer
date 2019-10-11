@@ -4,7 +4,7 @@ A Reddit script written in Python using PRAW, Pushshift RESTful API, Pandas and 
 
 -[PRAW](https://github.com/praw-dev/praw) - Python Reddit API Wrapper
 
--[Pushshift](https://github.com/pushshift/api)
+-[PushShift](https://github.com/pushshift/api) 
 
 ## What it does and how it does it 
 
@@ -24,7 +24,7 @@ The script, while looking specialized for a certain type of subreddit and submis
 
 ## Example
 
-[Image](https://github.com/UrosVuj/Reddit-comment-visualizer/blob/master/Scraper_visualization.png?raw=true)
+![Image](https://github.com/UrosVuj/Reddit-comment-visualizer/blob/master/Scraper_visualization.png?raw=true)
 
 
 
