@@ -1,4 +1,4 @@
-# Reddit comment visualizer script
+# Reddit trend visualizer script
 
 A Reddit script written in Python using PRAW, Pushshift RESTful API, Pandas and Matplotlib.
 
