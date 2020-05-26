@@ -9,7 +9,7 @@ A Reddit script written in Python using PRAW, Pushshift RESTful API, Pandas and 
 ## What it does and how it does it 
 
 The script is used for visualizing the amount of comments certain threads in a subreddit have (in this example, /r/serbia and its random discussions) in a set timeframe.
-It uses PRAW to communicate with the Reddit API and Pushshift to surpass the limitations of the aforementioned API, the main being downloading small amounts of data per request. The data downloaded in a JSON format. 
+It uses PRAW to communicate with the Reddit API and Pushshift to surpass the limitations of the aforementioned API, the main being downloading small amounts of data per request. 
 _Note_ that Pushshift doesn't misuse or abuse a flaw in the Reddit API, it runs in compliance with it.
 
 EDIT: Pushshift API is replaced with PSAW (Pushshift API Wrapper), the reason being code simplicity for readers. The project realization is the same, while some parts are just being hidden behind a wrapper. 
